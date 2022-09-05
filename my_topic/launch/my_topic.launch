@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="my_topic" name="my_publisher_node" type="my_publisher_node.py" output="screen" />
+  <node pkg="my_topic" name="my_subscriber_node" type="my_subscriber_node.py" output="screen" />
+</launch>
